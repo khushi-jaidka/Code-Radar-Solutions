@@ -4,8 +4,12 @@ int main(){
     int y;
     scanf("%d",&x);
     scanf("%d",&y);
-    printf("True",x>y);
-    
+    if(x>y){
+        printf("True");
+    }
+    else{
+        printf("False");
+    }
     return 0;
     
 }
