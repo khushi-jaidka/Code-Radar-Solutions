@@ -5,5 +5,4 @@ int main(){
     for(int i=n;i<=n*10;i=i+n){
         printf("n * i = %d",i);
     }
-    return 0;
-}
+    return 0;}
