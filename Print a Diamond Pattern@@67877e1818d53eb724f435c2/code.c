@@ -6,16 +6,16 @@ int main(){
         for(int j=1;j<=n-1;j++){
             printf(" ");
         }
-        for(int k=1;k<=2*i-1;k++){
+        for(int x=1;x<=2*i-1;x++){
             printf("*");
         }
         printf("\n");
     }
-    for(int x=n-1;x>=1;x--){
-        for(int y=n;y>x;y--){
+    for(int k=n-1;k>=1;k--){
+        for(int j=n;j>k;j--){
             printf(" ");
         }
-        for(int z=1;z<=2*x-1;z++){
+        for(int x=1;x<=2*k-1;x++){
             printf("*");
         }
         printf("\n");
