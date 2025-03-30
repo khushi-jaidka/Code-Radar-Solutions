@@ -12,7 +12,7 @@ int main(){
         for(int k=1;k<=nst;k++){
             printf("*");
         }
-        if(i<ml){
+        if(i<=ml){
             nsp--;
             nst=nst+2;
         }
